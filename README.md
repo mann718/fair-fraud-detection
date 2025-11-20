@@ -168,7 +168,13 @@ with torch.no_grad():
     preds = model(X_test_tensor)
 ```
 
----
+### **Load TabNet Model**
+```python
+from pytorch_tabnet.tab_model import TabNetClassifier
+
+clf = TabNetClassifier()
+clf.load_model("trained_models/Tabnet.zip")
+```
 
 ## ⭐ 7. Features
 
