@@ -1,0 +1,17 @@
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+imbalanced-learn
+xgboost
+lightgbm
+catboost
+pytorch-tabnet
+deepod
+aequitas
+joblib
+pickle5
+torch
+torchvision
+torchaudio
